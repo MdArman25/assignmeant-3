@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <!-- daisy ui and tailwaind css -->
+
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.4.0/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>    
+
+<!-- google font -->
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
+
+<!-- font-awassam -->
+<script src="https://kit.fontawesome.com/b1884ebb59.js" crossorigin="anonymous"></script>
+
+<style>
+    .font-loto{
+    font-family: 'Lato', sans-serif;
+}
+    .border-rd{
+        border-radius: 50px;
+    }
+
+.background-praimary{
+    background-color: #F85559;
+    }
+.img-1{
+    background-image: url(./images/banner1.png);
+    background-color: white;
+
+}
+.img-2{
+background-image: url(./images/banner2.png);
+background-color: white;
+}
+.img-3{
+    background-image: url(./images/banner3.png);
+    background-color: white;
+}
+.img-4{
+    background-image: url(./images/banner4.png);
+    background-color: white;
+}
+   
+
+</style>
+</head>
+<body class="font-lato">
+    
+<header>
+
+
+<section class="lg:flex justify-between lg:items-center lg:max-w-screen-xl lg:mx-auto mt-14  bg-red-500 text-gray-50">
+ <div class="invisible lg:visible flex lg:gap-9 w- ml-10 ">
+    <p>Home</p>
+    <p>About Us</p>
+    <p>Shop</p>
+    <p>all Fruits</p>
+ </div>
+ <div class="flex items-center gap-4 ">
+<img src="./images/logo.png" alt="">
+<h1 class=" text-3xllg:text-5xl font-bold"> Fruit Burst
+</h1>
+ </div>
+ 
+<!-- mobile responshive -->
+
+<!-- <div class="lg:invisible navbar">
+    <div class="navbar-start">
+      <div class="dropdown">
+        <label tabindex="0" class="btn btn-ghost btn-circle">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h7" /></svg>
+        </label>
+        <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+          <li><a>Homepage</a></li>
+          <li><a>Portfolio</a></li>
+          <li><a>About</a></li>
+        </ul>
+      </div>
+    </div>
+ 
+    </div>
+  </div>
+ -->
+
+
+    <div class=" invisible lg:visible lg:relative mr-9  ">
+ <div class=" ">
+<input type="text" placeholder="Search here" class=" lg:w-96 lg:h-14 lg:border-4 rounded-full pl-9  " />
+ </div>
+      <div class="">
+        <i class="fa-solid fa-magnifying-glass absolute right-9 top-5 text-black "></i>
+      </div>
+      </div>
+
+</section>
+
+</header>
+<main>
+<!-- banner section -->
+<section class="mt-20 max-w-screen-xl   mx-auto text-white relative">
+<div>
+<div class="carousel w-full ">
+  <div id="slide1" class="carousel-item  w-full h-full img-1 bg-no-repeat">
+   <div class="">
+<div>
+
+</div>
+
+
+<div class="flex flex-col justify-center items-center ml-72 my-56">
+    
+    <h1 class=" text-center flex text-7xl  ">Exotic tastes at your <br>doorstep</h1>
+    <p class="mt-5  text-center  flex text-base  ">We supply highly quality organic products</p>
+    <button class="btn btn-active bg-red-600 mt-5  ">Shop Now</button>
+    
+</div>
+
+   </div>
+    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+      <a href="#slide4" class="btn btn-circle">❮</a> 
+      <a href="#slide2" class="btn btn-circle">❯</a>
+    </div>
+  </div> 
+  <div id="slide2" class="carousel-item relative w-full img-2 bg-no-repeat ">
+
+    <div class="flex flex-col justify-center items-center ml-72">
+    
+        <h1 class=" text-center flex text-7xl  ">Exotic tastes at your <br>doorstep</h1>
+        <p class="mt-5 text-center  flex text-base  ">We supply highly quality organic products</p>
+        <button class="btn mt-5  btn-active bg-red-600 ">Shop Now</button>
+        
+    </div>
+    
+    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+      <a href="#slide1" class="btn btn-circle">❮</a> 
+      <a href="#slide3" class="btn btn-circle">❯</a>
+    </div>
+  </div> 
+  <div id="slide3" class="carousel-item relative w-full  img-3  bg-no-repeat">
+    <div class="flex flex-col justify-center items-center ml-72 my-56">
+    
+        <h1 class="mt-5  text-center border-2 flex text-7xl  ">Exotic tastes at your <br>doorstep</h1>
+        <p class=" text-center  flex text-base  ">We supply highly quality organic products</p>
+        <button class="btn btn-active bg-red-600 mt-5 ">Shop Now</button>
+        
+    </div>
+    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+      <a href="#slide2" class="btn btn-circle">❮</a> 
+      <a href="#slide4" class="btn btn-circle">❯</a>
+    </div>
+  </div> 
+  <div id="slide4" class="carousel-item relative w-full img-4 bg-no-repeat
+  ">
+    <div class="flex flex-col justify-center items-center ml-72 my-56">
+    
+        <h1 class=" text-center flex text-7xl  ">Exotic tastes at your <br>doorstep</h1>
+        <p class=" text-center  flex text-base mt-5  ">We supply highly quality organic products</p>
+        <button class="btn btn-active bg-red-600 mt-5 ">Shop Now</button>
+        
+    </div>
+    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+      <a href="#slide3" class="btn btn-circle">❮</a> 
+      <a href="#slide1" class="btn btn-circle">❯</a>
+    </div>
+  </div>
+</div>
+
+
+
+
+</div>
+
+    
+<div class="banner-botom flex  
+ w-3/4 justify-between ml-32 h-40 absolute bottom-0 pt-5 bg-white text-black ">
+    <div>
+        <img src="./images/fruit1.png" alt="">
+        <p class="ml-6 btn ">Strawberry</p>
+    </div>
+    <div>
+        <img src="./images/fruit2.png" alt="">
+        <p  class="ml-5 btn">Orange</p>
+    </div>
+    <div>
+        <img src="./images/fruit3.png" alt="">
+        <p  class="ml-10 btn">Mango</p>
+    </div>
+    <div>
+        <img src="./images/fruit4.png" alt="">
+        <p  class="ml-8 btn">Strawberry</p>
+    </div>
+    <div>
+        <img src="./images/fruit5.png" alt="">
+        <p  class="ml-8 btn">Mango</p>
+    </div>
+   
+
+</div>
+
+</section>
+
+
+</main>
+<footer>
+
+</footer>
+</body>
+</html>
