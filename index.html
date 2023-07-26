@@ -55,7 +55,7 @@ background-color: white;
 <header>
 
 
-<section class="lg:flex justify-between lg:items-center lg:max-w-screen-xl lg:mx-auto mt-14  bg-red-500 text-gray-50">
+<section class="lg:flex justify-between lg:items-center lg:max-w-screen-xl lg:mx-auto mt-14  bg-red-500 rounded-full  text-gray-50">
  <div class="invisible lg:visible flex lg:gap-9 w- ml-10 ">
     <p>Home</p>
     <p>About Us</p>
@@ -91,10 +91,10 @@ background-color: white;
 
     <div class=" invisible lg:visible lg:relative mr-9  ">
  <div class=" ">
-<input type="text" placeholder="Search here" class=" lg:w-96 lg:h-14 lg:border-4 rounded-full pl-9  " />
+<input type="text" placeholder="Search here" class=" lg:w-96 lg:h-8 lg:border-4 rounded-full pl-9  " />
  </div>
       <div class="">
-        <i class="fa-solid fa-magnifying-glass absolute right-9 top-5 text-black "></i>
+        <i class="fa-solid fa-magnifying-glass absolute right-9 top-2  text-black "></i>
       </div>
       </div>
 
@@ -180,29 +180,81 @@ background-color: white;
 <div class="banner-botom flex  
  w-3/4 justify-between ml-32 h-40 absolute bottom-0 pt-5 bg-white text-black ">
     <div>
-        <img src="./images/fruit1.png" alt="">
-        <p class="ml-6 btn ">Strawberry</p>
+        <img class="w-3/4" src="./images/fruit1.png" alt="">
+        <p class="ml- btn ">Strawberry</p>
     </div>
     <div>
-        <img src="./images/fruit2.png" alt="">
-        <p  class="ml-5 btn">Orange</p>
+        <img class="w-3/4" src="./images/fruit2.png" alt="">
+        <p  class="btn">Orange</p>
     </div>
     <div>
-        <img src="./images/fruit3.png" alt="">
-        <p  class="ml-10 btn">Mango</p>
+        <img class="w-3/4 -mr-4"  src="./images/fruit3.png" alt="">
+        <p  class="btn">Mango</p>
     </div>
     <div>
-        <img src="./images/fruit4.png" alt="">
-        <p  class="ml-8 btn">Strawberry</p>
+        <img class="w-3/4" src="./images/fruit4.png" alt="">
+        <p  class=" btn">Strawberry</p>
     </div>
     <div>
-        <img src="./images/fruit5.png" alt="">
-        <p  class="ml-8 btn">Mango</p>
+        <img class="w-3/4 -mr-4" src="./images/fruit5.png" alt="">
+        <p  class=" btn">Mango</p>
     </div>
    
 
 </div>
 
+</section>
+
+<section class="grid grid-cols-2 my-40 text-center max-w-screen-xl mx-auto items-center  ">
+  <div class="justify-start">
+    <h1 class=" text-5xl font-extrabold ">Deal of the day</h1>
+    <p>Contrary to popular belief, is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+  </div>
+  <div>
+    <div class="flex items-center gap-5  justify-end">
+      <div>
+        <span class="countdown font-mono text-4xl">
+          <span style="--value:30;"></span> 
+        </span>
+  days
+      </div> 
+      <div>
+        <span class="countdown font-mono text-4xl">
+          <span style="--value:10;"></span>
+        </span>
+        hours
+      </div> 
+      <div>
+        <span class="countdown font-mono text-4xl">
+          <span style="--value:24;"></span>
+        </span>
+        min
+      </div> 
+      <div>
+        <span class="countdown font-mono text-4xl">
+          <span style="--value:53;"></span>
+        </span>
+        sec
+      </div>
+    </div>
+  </div>
+  <div class="flex ">
+    <div class="items-center w-1/2 h-96">
+      <img class=" mx-auto mt-5 " src="./images/fruit6.png"
+ alt="">
+      <h3 class="text-xl font-bold mt-5">12.90$ - 18.85$</h3>
+      <p class="text-base font-medium mx-10 mt-7">Apples</p>
+
+      <div class="rating mt-5">
+        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+      </div> <br>
+      <p class="btn mt-4 text-red-600">Details</p>   
+      </div>
+  </div>
 </section>
 
 
