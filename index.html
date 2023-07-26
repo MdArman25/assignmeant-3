@@ -22,8 +22,8 @@
     .font-loto{
     font-family: 'Lato', sans-serif;
 }
-    .border-rd{
-        border-radius: 50px;
+    .-rd{
+        -radius: 50px;
     }
 
 .background-praimary{
@@ -46,8 +46,12 @@ background-color: white;
     background-image: url(./images/banner4.png);
     background-color: white;
 }
-   
-
+   .background-ho{
+    background-image: url(./images/Fruit\ Burst\ Website\ Landing\ Page\ Design.png);
+   }
+.bg-img{
+  background-color: #F85559;
+}
 </style>
 </head>
 <body class="font-lato">
@@ -205,13 +209,15 @@ background-color: white;
 
 </section>
 
-<section class="grid grid-cols-2 my-40 text-center max-w-screen-xl mx-auto items-center  ">
-  <div class="justify-start">
+<section class=" my-40 text-center max-w-screen-xl mx-auto items-center  ">
+
+<div class="flex items-center gap-80 ">
+  <div class="w-1/2">
     <h1 class=" text-5xl font-extrabold ">Deal of the day</h1>
-    <p>Contrary to popular belief, is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+    <p class="mt-10">Contrary to popular belief, is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
   </div>
-  <div>
-    <div class="flex items-center gap-5  justify-end">
+  <div class="w-1/2">
+    <div class="flex items-center gap-5  ">
       <div>
         <span class="countdown font-mono text-4xl">
           <span style="--value:30;"></span> 
@@ -238,8 +244,15 @@ background-color: white;
       </div>
     </div>
   </div>
-  <div class="flex ">
-    <div class="items-center w-1/2 h-96">
+
+</div>
+
+
+
+
+<div class=" mt-10">
+  <div class="  flex  gap-4 ">
+    <div class="items-center w-72  border-2 rounded-lg border-gray-200 ml-10 ">
       <img class=" mx-auto mt-5 " src="./images/fruit6.png"
  alt="">
       <h3 class="text-xl font-bold mt-5">12.90$ - 18.85$</h3>
@@ -252,15 +265,145 @@ background-color: white;
         <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
         <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
       </div> <br>
-      <p class="btn mt-4 text-red-600">Details</p>   
+      <p class="btn my-5 text-red-600 ">Details</p>   
+      </div>
+
+
+      <div class=" ">
+        <div class="items-center border-2 rounded-lg border-gray-200 w-72 ">
+          <img class=" mx-auto mt-5 " src="./images/fruit7.png"
+     alt="">
+          <h3 class="text-xl font-bold mt-5">12.90$ - 18.85$</h3>
+          <p class="text-base font-medium mx-10 mt-7">Orange</p>
+    
+          <div class="rating mt-5">
+            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+          </div> <br>
+          <p class="btn my-5  text-red-600">Details</p>   
+          </div>
+      </div>
+      
+  <div class=" ">
+    <div class="items-center  border-2 rounded-lg border-gray-200 w-72 ">
+      <img class=" mx-auto mt-5 " src="./images/fruit8.png"
+ alt="">
+      <h3 class="text-xl font-bold mt-5">12.90$ - 18.85$</h3>
+      <p class="text-base font-medium mx-10 mt-7">Red Dragon</p>
+
+      <div class="rating mt-5">
+        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+      </div> <br>
+      <p class="btn my-5  text-red-600">Details</p>   
       </div>
   </div>
+
+  
+  <div class=" ">
+    <div class="items-center  border-2 rounded-lg border-gray-200 w-72 ">
+      <img class=" mx-auto mt-5 " src="./images/fruit9.png"
+ alt="">
+      <h3 class="text-xl font-bold mt-5">12.90$ - 18.85$</h3>
+      <p class="text-base font-medium mx-10 mt-7">Banana</p>
+
+      <div class="rating mt-5">
+        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+      </div> <br>
+  <p class="btn my-5 text-red-600 hover:">Details</p>   
+      </div>
+  </div>
+
+  </div>
+
+</div>
+
+</section >
+
+
+<section class="max-w-screen-xl mx-auto bg-white img-1 bg-no-repeat text-white">
+  <div class="mx-auto w-1/2 pt-40">
+<h2 class="text-5xl font-extrabold pl-20">
+  Meet the team section
+</h2>
+<p class="text-base font-normal text-center pt-5 ">Contrary to popular belief, is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+  </div>
+  <div class="flex  border-green-500 gap-20  pl-44 mt-10">
+ <div class="">
+  <img src="./images/member1.png" alt="">
+  <h3 class="ml-3 mt-3 text-xl font-bold">Awlad Hossain</h3>
+  <p class="ml-6 mt-2 font-medium text-base">Fruits Expert</p>
+ <div class="flex gap-3 ml-8 mt-4">
+  <i class="fa-brands fa-facebook text-red-500 "></i>
+  <i class="fa-brands fa-twitter text-red-500"></i>
+  <i class="fa-brands fa-linkedin text-red-500"></i>
+ </div>
+ </div>
+ <div class="">
+  <img src="./images/member2.png" alt="">
+  <h3 class="ml-3 mt-3 text-xl font-bold">Awlad Hossain</h3>
+  <p class="ml-6 mt-2 font-medium text-base">Fruits Expert</p>
+ <div class="flex gap-3 ml-8 mt-4">
+  <i class="fa-brands fa-facebook text-red-500 "></i>
+  <i class="fa-brands fa-twitter text-red-500"></i>
+  <i class="fa-brands fa-linkedin text-red-500"></i>
+ </div>
+ </div>
+ <div class=" ">
+  <img src="./images/member3.png" alt="">
+  <h3 class="ml-3 mt-3 text-xl font-bold">Awlad Hossain</h3>
+  <p class="ml-6 mt-2 font-medium text-base">Fruits Expert</p>
+ <div class="flex gap-3 ml-8 mt-4">
+  <i class="fa-brands fa-facebook text-red-500 "></i>
+  <i class="fa-brands fa-twitter text-red-500"></i>
+  <i class="fa-brands fa-linkedin text-red-500"></i>
+ </div>
+ </div>
+ <div class=" ">
+  <img src="./images/member4.png" alt="">
+  <h3 class="ml-3 mt-3 text-xl font-bold">Awlad Hossain</h3>
+  <p class="ml-6 mt-2 font-medium text-base">Fruits Expert</p>
+ <div class="flex gap-3 ml-8 mt-4">
+  <i class="fa-brands fa-facebook text-red-500 "></i>
+  <i class="fa-brands fa-twitter text-red-500"></i>
+  <i class="fa-brands fa-linkedin text-red-500"></i>
+ </div>
+ </div>
+  </div>
 </section>
-
-
 </main>
-<footer>
-
+<footer class="h-96 text-white bg-black mt-32 ">
+<div class="flex justify-center gap-4 text-center items-center pt-14 ">
+  <img src="./images/logo.png" alt="">
+<h1 class="text-4xl font-bold">Fruit Burst</h1>
+</div>
+<div class="flex gap-16 justify-center mt-14">
+  <p class="text-base font-bold ">home</p>
+  <p class="text-base font-bold ">About Us</p>
+  <p class="text-base font-bold ">Shop</p>
+  <p class="text-base font-bold ">All Fruits</p>
+  <p class="text-base font-bold">Support</p>
+  <p class="text-base font-bold ">My Account</p>
+</div>
+<div class="flex gap-10 justify-center mt-14  tex-">
+  <i class="fa-brands fa-facebook  "></i>
+  <i class="fa-brands fa-twitter "></i>
+  <i class="fa-brands fa-linkedin "></i>
+  <i class="fa-brands fa-youtube"></i>
+  <i class="fa-brands fa-instagram"></i>
+  <i class="fa-brands fa-apple"></i>
+  <h1></h1>
+</div>
 </footer>
 </body>
 </html>
