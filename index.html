@@ -57,10 +57,6 @@ background-color: white;
 .bg-img{
   background-color: #F85559;
 }
-
-.bg-color{
-
-}
 .bg-icon{
   background-color: rgba(18, 18, 18, 0.10); 
 
@@ -72,56 +68,48 @@ background-color: white;
     
 <header>
 
-
-<section class="lg:flex justify-between lg:items-center lg:max-w-screen-xl lg:mx-auto mt- font-lato  bg-red-500 rounded-full  text-gray-50 mt-10 ">
- <div class="invisible lg:visible flex lg:gap-9 w- ml-10 ">
-    <p>Home</p>
-    <p>About Us</p>
-    <p>Shop</p>
-    <p>all Fruits</p>
- </div>
- <div class="flex items-center gap-4 ">
-<img src="./images/logo.png" alt="">
-<h1 class=" text-3xllg:text-5xl font-bold"> Fruit Burst
-</h1>
- </div>
- 
-<!-- mobile responshive -->
-
-<!-- <div class="lg:invisible navbar">
-    <div class="navbar-start">
-      <div class="dropdown">
-        <label tabindex="0" class="btn btn-ghost btn-circle">
-          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h7" /></svg>
+<section class="" >
+  <div class="navbar bg-base-100 bg-red-500 rounded-full lg:container mx-auto mt-10">
+    <div class="navbar-start ml-10  gap-20 md:gap-80 lg:gap-1">
+      <div class="dropdown  ">
+        <label tabindex="0" class="btn btn-ghost lg:hidden">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
         </label>
         <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-          <li><a>Homepage</a></li>
-          <li><a>Portfolio</a></li>
-          <li><a>About</a></li>
+          <li><a>Home</a></li>
+          <li>
+            <a>About Us</a>
+          </li>
+          <li><a>Shop</a></li>
+          <li><a>All Fruits</a></li>
         </ul>
       </div>
+     <div class="nav flex items-center">
+      <img src="./images/logo.png" alt="">
+      <a class="btn btn-ghost normal-case text-xl">Fruit Burst</a>
+     </div>
     </div>
- 
+    <div class="navbar-center hidden lg:flex">
+      <ul class="menu menu-horizontal px-1">
+        <li><a>Home</a></li>
+        <li><a>About US</a></li>
+        <li><a>Shop</a></li>
+        
+        <li><a>All Fruits</a></li>
+      </ul>
+    </div>
+    <div class="navbar-end hidden mr-10 lg:flex ">
+      <input class="px-10 rounded-full py-2" type="text" placeholder="search here ">
+      <i class="fa-solid fa-magnifying-glass -ml-10"></i>
     </div>
   </div>
- -->
-
-
-    <div class=" invisible lg:visible lg:relative mr-9  ">
- <div class=" ">
-<input type="text" placeholder="Search here" class=" lg:w-96 lg:h-8 lg:border-4 rounded-full pl-9  " />
- </div>
-      <div class="">
-        <i class="fa-solid fa-magnifying-glass absolute right-9 top-2  text-black "></i>
-      </div>
-      </div>
-
 </section>
+
 
 </header>
 <main>
 <!-- banner section -->
-<section class="mt-20 max-w-screen-xl   mx-auto text-white relative">
+<section class=" mt-20 container mx-auto text-white relative">
 <div>
 <div class="carousel w-full ">
   <div id="slide1" class="carousel-item  w-full h-full img-1 bg-no-repeat">
@@ -223,14 +211,14 @@ background-color: white;
 
 </section>
 
-<section class=" my-40 text-center max-w-screen-xl mx-auto items-center  ">
+<section class=" my-40 text-center container mx-auto items-center ml-32 ">
 
-<div class="flex items-center gap-80 ">
-  <div class="w-1/2">
+<div class="flex items-center gap-10  lg:gap-80 ">
+  <div class=" lg:w-1/2">
     <h1 class=" text-5xl font-extrabold ">Deal of the day</h1>
     <p class="mt-10">Contrary to popular belief, is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
   </div>
-  <div class="w-1/2">
+  <div class="lg:w-1/2">
     <div class="flex items-center gap-5  ">
       <div>
         <span class="countdown font-mono text-4xl">
@@ -345,7 +333,7 @@ background-color: white;
 </section >
 
 
-<section class="max-w-screen-xl mx-auto bg-white img-1 h-full bg-no-repeat text-white ">
+<section class=" container mx-auto bg-white img-1 h-full bg-no-repeat text-white ">
   <div class="mx-auto w-1/2 pt-32">
 <h2 class="text-5xl font-extrabold -">
   Meet the team section
@@ -397,7 +385,7 @@ background-color: white;
 </section>
 
 <!-- faq sextion -->
-<section class="max-w-screen-xl mx-auto ">
+<section class=" container mx-auto ">
 <div class="mt-20">
   <h1 class="md:text-5xl font-extrabold  text-center mb-10 ">Why Choose Us</h1>
   <p class="text-base font-medium   w-1/2  ml-72
@@ -443,7 +431,8 @@ background-color: white;
       <div class="">
       
         <h3 class=" text-2xl font-extrabold -mb-16 ml-7">
-          Dedicated Team</h3> <i class="fa-solid fa-face-smile font-extrabold text-3xl  ml-96 mt-10 bg-icon"></i>
+          Integrated Supplier</h3> 
+          <i class="fa-solid fa-face-smile font-extrabold text-2xl  ml-96 mt-10 bg-icon"></i>
         <p class="w-40 text-gray-500 border    ml-9  "></p>
         <p class=" text-start mt-2 ml-9">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
       
@@ -451,7 +440,7 @@ background-color: white;
       <div class="mt-7">
       
         <h3 class=" text-2xl font-extrabold -mb-16 ml-9">
-          Dedicated Team</h3> <i class="fa-solid fa-face-smile font-extrabold text-3xl  ml-96 mt-10 bg-icon"></i>
+          Sustainable Practice</h3> <i class="fa-solid fa-ice-cream font-extrabold text-2xl  ml-96 mt-10 bg-icon"></i>
         <p class="w-40 text-black border   mt-2 ml-9  "></p>
         <p class="text-start mt-2 ml-9">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
       
@@ -459,7 +448,7 @@ background-color: white;
       <div class="mt-7">
       
         <h3 class=" text-2xl font-extrabold -mb-16 ml-9">
-          Dedicated Team</h3> <i class="fa-solid fa-face-smile font-extrabold text-3xl  ml-96 mt-10 bg-icon"></i>
+          The Benefits Only</h3> <i class="fa-solid fa-thumbs-up font-extrabold text-2xl  ml-96 mt-10 bg-icon"></i>
         <p class="w-40 text-black border   mt-2 ml-9  "></p>
         <p class=" text-start mt-2 ml-9">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
       
@@ -477,7 +466,7 @@ background-color: white;
 
 
 </main>
-<footer class="h-96 text-white bg-black mt-32 ">
+<footer class=" h-96 text-white bg-black mt-32 ">
 <div class="flex justify-center gap-4 text-center items-center pt-14 ">
   <img src="./images/logo.png" alt="">
 <h1 class="text-4xl font-bold">Fruit Burst</h1>
